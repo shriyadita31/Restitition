@@ -8,15 +8,15 @@ var object;
        var canvas= createCanvas(400,400);
       engine=Engine.create();
        world=engine.world;
-        //var object_options={ 
-           // isStatic:true
-           //  }
+        var object_options={ 
+            isStatic:true
+             }
         var ground_options={ 
              isStatic: true 
              } 
-        //var ball_options={
-            // restitution:1.0
-            // } 
+        var ball_options={
+             restitution:1.0
+            } 
              object=Bodies.rectangle(200,100,50,50);
               World.add(world,object);
             //console.log(object);
